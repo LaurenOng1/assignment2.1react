@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Component from './Component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="Cat.jpeg" className="App-logo" alt="logo" />
+       
+        <h1>Lauren</h1>
+        <p>Business Analyst</p>
+
+        <Component title='About me' para='The picture is not me, but of a friendly neighbourhood cat which I took just this morning. Using this picture because it makes me happy just looking at the adorable cat :)'/>
+        <Component title='Contact me' para='Email: Lauren@CatMail.com | LinkedIn: https://www.linkedin.com/'/>
       </header>
+
+
+
     </div>
   );
 }
